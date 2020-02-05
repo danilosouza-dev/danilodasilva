@@ -51,7 +51,7 @@ header {
 
 #wrapper {
   text-align: center;
-  margin-top: 32px;
+  padding: 32px;
 }
 
 #wrapper img {
@@ -77,7 +77,7 @@ header {
   font-size: 18px;
   line-height: 1.5;
   max-width: 500px;
-  margin: 32px auto;
+  margin: 27px auto 12px auto;
 }
 
 #wrapper a {
