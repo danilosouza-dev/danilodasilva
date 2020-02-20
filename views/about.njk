@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <title>Danilo da Silva</title>
-</head>
-<body>
-  <header>
-    <ul class="menu__links">
-      <li><a href="/" class="active__menu-link">Sobre</a></li>
-      <li><a href="classes.html">Aulas</a></li>
-    </ul>
-  </header>
+{% extends "layout.njk"%}
+
+{% block head %}
+  <title>About - Danilo da Silva</title>
+{% endblock %}
+
+{% block content %}
 
   <section id="wrapper">
     <img src="https://avatars2.githubusercontent.com/u/34549752?s=460&v=4" alt="Danilo da Silva">
@@ -29,5 +20,4 @@
     </ul>
   </footer>
 
-</body>
-</html>
+{% endblock %}

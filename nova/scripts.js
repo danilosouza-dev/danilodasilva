@@ -1,5 +1,13 @@
 const modalOverlay = document.querySelector('.modal__overlay');
 const cards = document.querySelectorAll('.card');
+const menu_items = document.querySelectorAll('.menu_item');
+
+for (const item of menu_items) {
+  item.addEventListener('click', function() {
+    item.classList.add('active__menu-link');
+  })
+};
+
 
 for (const card of cards) {
   card.addEventListener("click", function() {
