@@ -6,7 +6,7 @@ for (const item of menu_items) {
   item.addEventListener('click', function() {
     item.classList.add('active__menu-link');
   })
-};
+}
 
 
 for (const card of cards) {
@@ -19,5 +19,5 @@ for (const card of cards) {
 
 document.querySelector('.material-icons').addEventListener("click", function() {
   modalOverlay.classList.remove("active");
-  modalOverlay.querySelector("iframe").src = "";
+  modalOverlay.querySelector("iframe").src = ""
 })
